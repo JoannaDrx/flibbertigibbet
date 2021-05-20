@@ -8,8 +8,9 @@ relevant information, including a clickable link to the job's Cloudwatch Log to 
 then pushed to an endpoint of your choice (can be slack, google chat, any service that provides an API webhook will 
 work). In case of job failure, a comforting quote is also appended to the message.
 
-See below for an example of flibbertigibbet in action:
-![alt text](https://github.com/JoannaDrx/Flibbertigibbet/blob/main/fib_example1.png?raw=true)
+Examples of flibbertigibbet notifications in Google Chat:
+![Memory error](flib_ex1.png)
+![User terminated](flib_ex2.png)
 
 Cloudwatch rule format below - under `JobQueue`, list all queue names the lambda should watch.
 
